@@ -1,0 +1,72 @@
+.container-fluid{
+
+    background-color: black;
+    height: 80PX;
+   
+}
+.body1{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+.pic{
+position: relative;
+    height: 600px;
+    width: 480PX;
+left: 960px;
+top: -175px;
+
+}
+.navbar-brand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 100PX;
+}
+.myname{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 180px;
+    left: 100px;
+
+}
+.nav nav-tabs:hover{
+    background-color: gray;
+}
+.main{
+
+    color: rgb(9, 93, 167);
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    background-color: black;
+  
+}
+.container{
+  display: flex;
+
+  flex-direction: column;
+}  
+.social{
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.row2{
+    background-color: white;
+    width: 1800px;
+    height: 100px;
+    margin-left: -20px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 22px 20px 53px -2px rgba(255,255,255,0.77);
+-webkit-box-shadow: 22px 20px 53px -2px rgba(255,255,255,0.77);
+-moz-box-shadow: 22px 20px 53px -2px rgba(255,255,255,0.77);
+  }
+body,html{
+    overflow-x: hidden !important;
+}
